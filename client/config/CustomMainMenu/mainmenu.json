@@ -1,15 +1,15 @@
 {
     "images":
     {
-		"modpack":
-		{
-            "image" : "mainmenu:modpack.png",
-            "posX" : -125,
-            "posY" : -155,
-            "width" : 250,
-            "height" : 150,
-            "alignment" : "center"
-		}
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
     },
     
     "buttons":
@@ -18,11 +18,9 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 0,
-            "width" : 175,
+            "posY" : 48,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:midbutton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -34,11 +32,9 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 25,
-            "width" : 175,
+            "posY" : 72,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:midbutton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -50,44 +46,23 @@
         {
             "text" : "Mods",
             "posX" : -100,
-            "posY" : 50,
-            "width" : 175,
+            "posY" : 96,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:midbutton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
-        "Prelude Site":
-        {
-            "text" : "",
-            "posX" : 80,
-            "posY" : 25,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "center",
-			"tooltip": "PreludeCraft's Website!",
-			"texture" : "mainmenu:web.png",
-			"imageWidth": "40",
-			"imageHeight": "40",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "http://www.preludecraft.com/"
-            }
-        },
+            
         "options":
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 75,
-            "width" : 175,
+            "posY" : 132,
+            "width" : 98,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:midbutton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -98,30 +73,23 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : -100,
-            "posY" : 100,
-            "width" : 175,
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:midbutton.png",
             "action" : 
             {
                 "type" : "quit"
             }
         },
-		
+        
         "language":
         {
             "text" : "",
-            "posX" : 80,
-            "posY" : 0,
+            "posX" : -124,
+            "posY" : 132,
             "width" : 20,
             "height" : 20,
-			"tooltip": "Language",
-			"alignment" : "center",
-			"imageWidth": "40",
-			"imageHeight": "40",
-			"texture" : "mainmenu:lang.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -132,12 +100,11 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -20,
-            "posY" : 0,
+            "posX" : -154,
+            "posY" : 132,
             "width" : 20,
             "height" : 20,
-			"alignment" : "top_right",
-            "texture" : "mainmenu:refresh.png",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
                 "type" : "refresh"
@@ -149,47 +116,37 @@
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB",
-            "posX" : -108,
-            "posY" : -15,
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right"
         },
-		"forge":{
-			"text" : "Minecraft #mcversion#",
-            "posX" : 5,
-            "posY" : -35,
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
             "color" : -1,
             "alignment" : "bottom_left"
-		},
-		"modsloaded":{
-			"text" : "#modsloaded# Mods Loaded",
-            "posX" : 5,
-            "posY" : -25,
-            "color" : -1,
-            "alignment" : "bottom_left"
-		},
-		"modsactive":{
-			"text" : "#modsactive# Mods Active",
-            "posX" : 5,
-            "posY" : -15,
-            "color" : -1,
-            "alignment" : "bottom_left"
-		},
-		"modpack":{
-			"text" : "PreludePack 3.0.8",
-            "posX" : 5,
-            "posY" : -45,
-            "color" : -1,
-            "alignment" : "bottom_left"
-		}
+        }
     },
     
     "other":
     {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "file" : "texts/splashes.txt"
+        },
+        
         "panorama":
         {
-            "images" : "mainmenu:pp%c.png",
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
