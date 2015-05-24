@@ -16,10 +16,16 @@ for /r %%I IN (*.jar) DO (
 	set /p version=Version 
 	md !name!
 	md !name!\mods
-	move "%%~nI.jar" "!name!\mods\%%~nI.jar"
+	copy "%%~nI.jar" "!name!\mods\%%~nI.jar"
 	cd !name!
-	"C:\Program Files\WinRAR\WinRAR" A !name!-!version!.zip mods
+	"C:\Program Files\WinRAR\WinRAR" M !name!-!version!.zip mods
 	cd ..
+	cd ..
+	copy "additions\%%~nI.jar" "client\mods\%%~nI.jar"
+	copy "additions\%%~nI.jar" "server\mods\%%~nI.jar"
+	move "additions\!name!" "solder\mods"
+	cd additions
+	del "%%~nI.jar"
 )
 
 echo.
