@@ -18,13 +18,20 @@ for /r %%I IN (*.jar) DO (
 	md !name!\mods
 	copy "%%~nI.jar" "!name!\mods\%%~nI.jar"
 	cd !name!
+	::Compress the jar
 	"C:\Program Files\WinRAR\WinRAR" M !name!-!version!.zip mods
 	cd ..
 	cd ..
-	copy "additions\%%~nI.jar" "client\mods\%%~nI.jar"
-	copy "additions\%%~nI.jar" "server\mods\%%~nI.jar"
-	move "additions\!name!" "solder\mods"
+	cd ..
+	::Copy mod files into respective folders
+	copy "additions\mods\%%~nI.jar" "client\mods\%%~nI.jar"
+	copy "additions\mods\%%~nI.jar" "server\mods\%%~nI.jar"
+	copy "additions\mods\%%~nI.jar" "server-staffpack\mods\%%~nI.jar"
+	copy "additions\mods\!name!\!name!-!version!.zip" "solder\mods\!name!\!name!-!version!.zip"
 	cd additions
+	cd mods
+	::Cleanup
+	del "!name!"
 	del "%%~nI.jar"
 )
 
