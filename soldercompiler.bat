@@ -27,6 +27,7 @@ for /r %%I IN (*.jar) DO (
 	copy "additions\mods\%%~nI.jar" "client\mods\%%~nI.jar"
 	copy "additions\mods\%%~nI.jar" "server\mods\%%~nI.jar"
 	copy "additions\mods\%%~nI.jar" "server-staffpack\mods\%%~nI.jar"
+	if not exist "solder\mods\!name!" md "solder\mods\!name!"
 	copy "additions\mods\!name!\!name!-!version!.zip" "solder\mods\!name!\!name!-!version!.zip"
 	cd additions
 	cd mods
