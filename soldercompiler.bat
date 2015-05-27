@@ -32,6 +32,7 @@ for /r %%I IN (*.jar) DO (
 	cd additions
 	cd mods
 	::Cleanup
+	del "!name!\!name!-!version!.zip"
 	del "!name!"
 	del "%%~nI.jar"
 )
