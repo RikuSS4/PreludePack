@@ -2,3 +2,12 @@ asd
 server/logs
 server/crash-reports
 server/world
+server/asm
+server/banned-ips.json
+server/banned-players.json
+server/ops.json
+server/usercache.json
+server/whitelist.json
+server/log.txt
+server/minetweaker.log
+server/eula.txt
