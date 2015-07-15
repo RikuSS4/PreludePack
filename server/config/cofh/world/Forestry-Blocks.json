@@ -1,0 +1,31 @@
+{
+    "BogEarth": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Forestry:soil",
+                "metadata": 0
+            }
+        ],
+        "material": [
+            "minecraft:dirt"
+        ],
+        "clusterSize": 12,
+        "numClusters": 6,
+        "minHeight": 60,
+        "maxHeight": 68,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "WET"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "Aluminium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 5,
+                "weight": 800
+            }
+        ],
+        "clusterSize": 4,
+        "chunkChance": 5,
+        "numClusters": 11,
+        "minHeight": 44,
+        "maxHeight": 62,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelIron": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 0,
+                "weight": 18
+            }
+        ],
+        "clusterSize": 8,
+        "chunkChance": 3,
+        "numClusters": 1,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelGold": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 1,
+                "weight": 18
+            }
+        ],
+        "chunkChance": 10,
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelCopper": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 2,
+                "weight": 18
+            }
+        ],
+        "clusterSize": 5,
+        "chunkChance": 5,
+        "numClusters": 2,
+        "meanHeight": 58,
+        "maxVariance": 7,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelTin": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 3,
+                "weight": 18
+            }
+        ],
+        "clusterSize": 5,
+        "chunkChance": 5,
+        "numClusters": 2,
+        "meanHeight": 37,
+        "maxVariance": 7,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelAluminum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 4,
+                "weight": 18
+            }
+        ],
+        "clusterSize": 4,
+        "chunkChance": 5,
+        "numClusters": 1,
+        "minHeight": 44,
+        "maxHeight": 62,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "GravelOres": {
+        "template": "uniform",
+        "block": [
+            {"name": "minecraft:gravel", "metadata": 0, "weight": 9000},
+            {"name": "TConstruct:GravelOre", "metadata": 0, "weight": 99},
+            {"name": "TConstruct:GravelOre", "metadata": 1, "weight": 200},
+            {"name": "TConstruct:GravelOre", "metadata": 2, "weight": 300},
+            {"name": "TConstruct:GravelOre", "metadata": 3, "weight": 200},
+            {"name": "TConstruct:GravelOre", "metadata": 4, "weight": 100},
+            {"name": "TConstruct:GravelOre", "metadata": 5, "weight": 1}
+        ],
+        "material": "minecraft:stone",
+        "chunkChance": 10,
+        "clusterSize": 16,
+        "numClusters": 2,
+        "minHeight": 4,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

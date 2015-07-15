@@ -1,0 +1,131 @@
+{
+    "Sulfur": {
+        "template": "underfluid",
+        "genFluid": "lava",
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 0, "weight": 700}
+		],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 8,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-100, -19, -6, -5, -1, 1, 7]
+    },
+    "SaltpeterSand": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Railcraft:ore",
+                "metadata": 1,
+                "weight": 500
+            }
+        ],
+        "material": "minecraft:sand",
+        "clusterSize": 7,
+        "numClusters": 20,
+        "minHeight": 30,
+        "maxHeight": 90,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": ["SANDY", "DRY"]}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "SaltpeterSandUnderwater": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Railcraft:ore",
+                "metadata": 1,
+                "weight": 500
+            }
+        ],
+        "material": "minecraft:sand",
+        "genFluid": "water",
+        "clusterSize": 7,
+        "numClusters": 15,
+        "minHeight": 30,
+        "maxHeight": 50,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "AbyssalStoneUnderwater": {
+        "template": {"type": "underfluid", "generator": "boulder"},
+        "block": [
+            {
+                "name": "Railcraft:cube",
+                "metadata": 6,
+                "weight": 500
+            }
+        ],
+        "numClusters": 1,
+        "chunkChance": 10,
+        "material": "minecraft:sand",
+        "genFluid": "water",
+        "clusterSize ": 10,
+        "sizeVariance": 2,
+        "count": 1,
+        "hollow": true,
+        "hollowSize": 0.1,
+        "hollowVar": 0.1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "QuarriedStone": {
+        "template": {"type": "surface", "generator": "boulder"},
+        "block": [
+            {
+                "name": "Railcraft:cube",
+                "metadata": 7,
+                "weight": 500
+            }
+        ],
+        "material": [
+            {"name": "stone"},
+            {"name": "grass"},
+            {"name": "dirt"},
+            {"name": "podzol"},
+            {"name": "gravel"}
+        ],
+        "numClusters": 1,
+        "clusterSize ": 20,
+        "sizeVariance": 1,
+        "hallow": false,
+        "count": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "FOREST"
+            },
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

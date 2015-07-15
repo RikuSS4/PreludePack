@@ -1,0 +1,25 @@
+{
+    "Tungsten": {
+        "template": "uniform",
+        "block": [
+            {
+				"name": "Eln:Eln.Ore",
+                "metadata": 5,
+                "weight": 500
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 22,
+        "maxHeight": 44,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

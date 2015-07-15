@@ -1,0 +1,52 @@
+{
+    "Draconium": {
+        "template": "uniform",
+        "block": [
+            {"name": "DraconicEvolution:draconiumOre", "metadata": 0, "weight": 700}
+        ],
+        "chunkChance": 3,
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "NetherDraconium": {
+        "template": "uniform",
+        "block": [
+            {"name": "DraconicEvolution:draconiumOre", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:end_stone",
+        "clusterSize": 4,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 30,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [0, 1]
+    },
+    "EndDraconium": {
+        "template": "uniform",
+        "block": [
+            {"name": "DraconicEvolution:draconiumOre", "metadata": 0, "weight": 700}
+       ],
+        "material": "minecraft:end_stone",
+        "clusterSize": 7,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}

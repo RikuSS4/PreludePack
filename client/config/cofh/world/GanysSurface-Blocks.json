@@ -1,0 +1,24 @@
+{
+    "Prismarine": {
+        "template": "underfluid",
+        "block": "ganyssurface:prismarineBlocks",
+        "material": [
+            "minecraft:dirt",
+            "minecraft:gravel",
+            "minecraft:sand"
+        ],
+        "genFluid": "water",
+        "clusterSize": 12,
+        "numClusters": 7,
+        "minHeight": 32,
+        "maxHeight": 60,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

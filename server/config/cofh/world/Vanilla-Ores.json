@@ -1,0 +1,287 @@
+{
+    "Coal": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "coal_ore",
+                "metadata": 0,
+                "weight": 900
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0,
+                "weight": 100
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 20,
+        "minHeight": 4,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Iron": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "iron_ore",
+                "metadata": 0,
+                "weight": 750
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 4,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Gold": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "gold_ore",
+                "metadata": 0,
+                "weight": 800
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Redstone": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "redstone_ore",
+                "metadata": 0,
+                "weight": 800
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 4,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Lapis": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "lapis_ore",
+                "metadata": 0,
+                "weight": 800
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 1,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Quartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "quartz_ore",
+                "metadata": 0,
+                "weight": 800
+            }
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "hell"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "Emerald": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "emerald_ore",
+                "metadata": 0,
+                "weight": 750
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 1,
+        "numClusters": 8,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+             {
+                "type": "dictionary",
+                "entry": "FOREST"
+            },
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            },
+            {
+                "type": "name",
+                "entry": "Birch Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Boreal Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Cherry Blossom Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Coniferous Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Decidous Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Extreme Hills"
+            },
+            {
+                "type": "name",
+                "entry": "Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Highland"
+            },
+            {
+                "type": "name",
+                "entry": "Jade Cliffs"
+            },
+            {
+                "type": "name",
+                "entry": "Maple Woods"
+            },
+            {
+                "type": "name",
+                "entry": "Moor"
+            },
+            {
+                "type": "name",
+                "entry": "Mountain"
+            },
+            {
+                "type": "name",
+                "entry": "Redwood Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Seasonal Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Seasonal Spruce Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Temperate Rainforest"
+            },
+            {
+                "type": "name",
+                "entry": "Thinned Timber"
+            },
+            {
+                "type": "name",
+                "entry": "Timber"
+            },
+            {
+                "type": "name",
+                "entry": "Woodland"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Diamond": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "diamond_ore",
+                "metadata": 0,
+                "weight": 650
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

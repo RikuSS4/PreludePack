@@ -1,0 +1,156 @@
+{
+    "Andesite1": {
+        "template": "uniform",
+        "block": "chisel:andesite",
+        "material": "minecraft:stone",
+        "chunkChance": 5,
+        "clusterSize": 32,
+        "numClusters": 16,
+        "minHeight": 4,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Andesite2": {
+        "template": "uniform",
+        "block": "chisel:andesite",
+        "material": "minecraft:stone",
+        "chunkChance": 7,
+        "clusterSize": 16,
+        "numClusters": 24,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Andesite3": {
+        "template": "uniform",
+        "block": "chisel:andesite",
+        "material": "minecraft:stone",
+        "chunkChance": 10,
+        "clusterSize": 8,
+        "numClusters": 32,
+        "minHeight": 4,
+        "maxHeight": 48,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Andesite4": {
+        "template": "uniform",
+        "block": "chisel:andesite",
+        "material": "minecraft:stone",
+        "chunkChance": 5,
+        "clusterSize": 4,
+        "numClusters": 40,
+        "minHeight": 4,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Granite": {
+        "template": "uniform",
+        "block": "chisel:granite",
+        "material": "minecraft:stone",
+        "chunkChance": 10,
+        "clusterSize": 48,
+        "numClusters": 6,
+        "minHeight": 32,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Diorite": {
+        "template": "uniform",
+        "block": "chisel:diorite",
+        "material": "minecraft:stone",
+        "chunkChance": 10,
+        "clusterSize": 48,
+        "numClusters": 5,
+        "minHeight": 16,
+        "maxHeight": 192,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Limestone": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "chisel:limestone",
+                "weight":90
+            }
+        ],
+        "material": "minecraft:stone",
+        "chunkChance": 10,
+        "clusterSize": 25,
+        "numClusters": 3,
+        "minHeight": 32,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Marble": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "chisel:marble",
+                "weight":90
+            }
+        ],
+        "material": "minecraft:stone",
+        "chunkChance": 3,
+        "clusterSize": 32,
+        "numClusters": 7,
+        "minHeight": 4,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Copper": {
+        "template": "normal",
+        "block": [
+            {"name": "IC2:blockOreCopper", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "meanHeight": 58,
+        "maxVariance": 28,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "CopperHigh": {
+        "template": "uniform",
+        "block": [
+            {"name": "IC2:blockOreCopper", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "chunkChance": 5,
+        "clusterSize": 8,
+        "numClusters": 8,
+        "minHeight": 48,
+        "maxHeight": 96,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "Tin": {
+        "template": "normal",
+        "block": [
+            {"name": "IC2:blockOreTin", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 6,
+        "meanHeight": 37,
+        "maxVariance": 7,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "Lead": {
+        "template": "normal",
+        "block": [
+            {"name": "IC2:blockOreLead", "metadata": 0, "weight": 600},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 100}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 5,
+        "meanHeight": 28,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "Uranium": {
+        "template": "uniform",
+        "block": [
+            {"name": "IC2:blockOreUran", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 4,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    }
+}

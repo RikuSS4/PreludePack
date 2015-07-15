@@ -1,0 +1,52 @@
+{
+    "Mimichite": {
+        "template": "uniform",
+        "block": [
+            {"name": "Mimicry:Sparr_Mimichite Ore", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 8,
+        "minHeight": 4,
+        "maxHeight": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    },
+    "NetherMimichite": {
+        "template": "uniform",
+        "block": [
+            {"name": "Mimicry:Sparr_Mimichite Ore", "metadata": 1, "weight": 700}
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 6,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [0, 1]
+    },
+    "EndMimichite": {
+        "template": "uniform",
+        "block": [
+            {"name": "Mimicry:Sparr_Mimichite Ore", "metadata": 2, "weight": 700}
+        ],
+        "material": "minecraft:end_stone",
+        "clusterSize": 6,
+        "numClusters": 32,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "NetherSulfur": {
+        "template": "uniform",
+        "block": [
+            {"name": "NetherOres:tile.netherores.ore.1", "metadata": 5, "weight": 1000}
+		],
+        "material": "minecraft:netherrack",
+        "clusterSize": 12,
+        "numClusters": 12,
+        "minHeight": 1,
+        "maxHeight": 127,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [0, 1]
+    }
+}

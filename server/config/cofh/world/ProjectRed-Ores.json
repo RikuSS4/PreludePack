@@ -1,0 +1,17 @@
+{
+    "Electrotine": {
+        "template": "uniform",
+        "block": [
+            {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 6, "weight": 700}
+        ],
+        "clusterSize": 2,
+        "numClusters": 3,
+        "minHeight": 4,
+        "maxHeight": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    }
+}

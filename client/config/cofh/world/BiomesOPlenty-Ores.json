@@ -1,0 +1,469 @@
+{
+    "Ruby": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 2
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "DESERT"
+            },
+            {
+                "type": "name",
+                "entry": "Badlands"
+            },
+            {
+                "type": "name",
+                "entry": "Canyon"
+            },
+            {
+                "type": "name",
+                "entry": "Ravine"
+            },
+            {
+                "type": "name",
+                "entry": "Desert"
+            },
+            {
+                "type": "name",
+                "entry": "Dunes"
+            },
+            {
+                "type": "name",
+                "entry": "Mesa"
+            },
+            {
+                "type": "name",
+                "entry": "Outback"
+            },
+            {
+                "type": "name",
+                "entry": "Savanna"
+            },
+            {
+                "type": "name",
+                "entry": "Savanna Plateau"
+            },
+            {
+                "type": "name",
+                "entry": "Srubland"
+            },
+            {
+                "type": "name",
+                "entry": "Steppe"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Peridot": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 4
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "LUSH"
+            },
+            {
+                "type": "dictionary",
+                "entry": "PLAINS"
+            },
+            {
+                "type": "name",
+                "entry": "Chaparral"
+            },
+            {
+                "type": "name",
+                "entry": "Field"
+            },
+            {
+                "type": "name",
+                "entry": "Forested Field"
+            },
+            {
+                "type": "name",
+                "entry": "Garden"
+            },
+            {
+                "type": "name",
+                "entry": "Grassland"
+            },
+            {
+                "type": "name",
+                "entry": "Heathland"
+            },
+            {
+                "type": "name",
+                "entry": "Meadow"
+            },
+            {
+                "type": "name",
+                "entry": "Meadow Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Orchard"
+            },
+            {
+                "type": "name",
+                "entry": "Pasture"
+            },
+            {
+                "type": "name",
+                "entry": "Pasture Meadow"
+            },
+            {
+                "type": "name",
+                "entry": "Plains"
+            },
+            {
+                "type": "name",
+                "entry": "Prairie"
+            },
+            {
+                "type": "name",
+                "entry": "Shrubland"
+            },
+            {
+                "type": "name",
+                "entry": "Thick Shrubland"
+            },
+            {
+                "type": "name",
+                "entry": "Thinned Pasture"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Topaz": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 6
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "JUNGLE"
+            },
+            {
+                "type": "dictionary",
+                "entry": "DENSE"
+            },
+            {
+                "type": "dictionary",
+                "entry": "HOT"
+            },
+            {
+                "type": "name",
+                "entry": "Bamboo Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Jungle"
+            },
+            {
+                "type": "name",
+                "entry": "Oasis"
+            },
+            {
+                "type": "name",
+                "entry": "Rainforest"
+            },
+            {
+                "type": "name",
+                "entry": "Tropical Rainforest"
+            },
+            {
+                "type": "name",
+                "entry": "Tropics"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Tanzanite": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 8
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 49,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "SNOWY"
+            },
+            {
+                "type": "dictionary",
+                "entry": "FROZEN"
+            },
+            {
+                "type": "name",
+                "entry": "Alps"
+            },
+            {
+                "type": "name",
+                "entry": "Alps Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Alps Mountainside"
+            },
+            {
+                "type": "name",
+                "entry": "Arctic"
+            },
+            {
+                "type": "name",
+                "entry": "Frost Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Glacier"
+            },
+            {
+                "type": "name",
+                "entry": "Icy Hills"
+            },
+            {
+                "type": "name",
+                "entry": "Polar"
+            },
+            {
+                "type": "name",
+                "entry": "Snowy Coniferous Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Snowy Dead Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Taiga"
+            },
+            {
+                "type": "name",
+                "entry": "Tundra"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Malachite": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 10
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "SWAMP"
+            },
+            {
+                "type": "name",
+                "entry": "Bayou"
+            },
+            {
+                "type": "name",
+                "entry": "Bog"
+            },
+            {
+                "type": "name",
+                "entry": "Dead Swamp"
+            },
+            {
+                "type": "name",
+                "entry": "Fen"
+            },
+            {
+                "type": "name",
+                "entry": "Lush Swamp"
+            },
+            {
+                "type": "name",
+                "entry": "Quagmire"
+            },
+            {
+                "type": "name",
+                "entry": "Sludgepit"
+            },
+            {
+                "type": "name",
+                "entry": "Swampland"
+            },
+            {
+                "type": "name",
+                "entry": "Wetland"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 12
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "WATER"
+            },
+            {
+                "type": "dictionary",
+                "entry": "BEACH"
+            },
+            {
+                "type": "name",
+                "entry": "Coral Reef"
+            },
+            {
+                "type": "name",
+                "entry": "Crag"
+            },
+            {
+                "type": "name",
+                "entry": "Hot Springs"
+            },
+            {
+                "type": "name",
+                "entry": "Kelp Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mangrove"
+            },
+            {
+                "type": "name",
+                "entry": "Marsh"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Amber": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 14
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "River"
+            },
+            {
+                "type": "name",
+                "entry": "Grove"
+            },
+            {
+				"type": "dictionary",
+				"entry": "MAGICAL"
+			}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Amethyst": {
+        "template": "uniform",
+        "block": {
+            "name": "BiomesOPlenty:gemOre",
+            "metadata": 0
+        },
+        "material": "minecraft:end_stone",
+        "clusterSize": 3,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+			0
+        ]
+    }
+}

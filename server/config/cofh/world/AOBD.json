@@ -1,0 +1,18 @@
+{
+    "Iridium": {
+        "template": "uniform",
+        "block": [
+            {"name": "aobd:oreIridium", "metadata": 0, "weight": 700}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 1,
+        "numClusters": 1,
+        "minHeight": 4,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1]
+    }
+}
